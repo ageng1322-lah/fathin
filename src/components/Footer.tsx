@@ -7,8 +7,9 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-10 mb-10">
           {/* Brand */}
           <div>
-            <h3 className="text-xl font-bold mb-3">
-              <span className="text-primary">LUMINA</span>VISUAL
+            <h3 className="text-xl font-bold mb-3 tracking-tighter flex items-center gap-2">
+              <img src="/logo.png" alt="Wall Mapping Logo" className="w-6 h-6 rounded" />
+              <span><span className="text-primary">WALL</span>MAPPING</span>
             </h3>
             <p className="text-muted-foreground text-sm leading-relaxed">
               Studio kreatif spesialis Wall Mapping & Immersive Dark Exhibition.
@@ -26,7 +27,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-primary shrink-0" />
-                +62 812-3456-7890
+                +62 855-4518-2377
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-primary shrink-0" />
@@ -53,7 +54,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-border pt-6 text-center text-sm text-muted-foreground">
-          © 2026 LuminaVisual. All rights reserved.
+          © 2026 Wall Mapping. All rights reserved.
         </div>
       </div>
     </footer>

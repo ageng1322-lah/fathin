@@ -22,8 +22,9 @@ const Navbar = () => {
   return (
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? "glass py-3" : "py-5"}`}>
       <div className="container mx-auto px-4 flex items-center justify-between">
-        <a href="#" className="text-lg font-bold">
-          <span className="text-primary">LUMINA</span>VISUAL
+        <a href="#" className="flex items-center gap-2 font-bold text-xl tracking-tighter">
+          <img src="/logo.png" alt="Wall Mapping Logo" className="w-8 h-8 rounded" />
+          <span><span className="text-primary">WALL</span>MAPPING</span>
         </a>
 
         {/* Desktop */}
@@ -34,7 +35,7 @@ const Navbar = () => {
             </a>
           ))}
           <a
-            href="https://wa.me/6281234567890"
+            href="https://wa.me/6285545182377"
             target="_blank"
             rel="noopener noreferrer"
             className="px-5 py-2 bg-primary text-primary-foreground text-sm font-semibold rounded-lg hover:shadow-[0_0_20px_hsl(var(--neon-glow)/0.3)] transition-all duration-300"
@@ -65,7 +66,7 @@ const Navbar = () => {
                 </a>
               ))}
               <a
-                href="https://wa.me/6281234567890"
+                href="https://wa.me/6285545182377"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-5 py-2 bg-primary text-primary-foreground text-sm font-semibold rounded-lg text-center"
