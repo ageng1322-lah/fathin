@@ -1,0 +1,18 @@
+
+> vite_react_shadcn_ts@0.0.0 build
+> vite build
+
+[36mvite v5.4.19 [32mbuilding for production...[36m[39m
+transforming...
+[32m???[39m 2078 modules transformed.
+rendering chunks...
+computing gzip size...
+[2mdist/[22m[32mindex.html                       [39m[1m[2m  1.35 kB[22m[1m[22m[2m ??? gzip:   0.57 kB[22m
+[2mdist/[22m[32massets/portfolio-1-CT5_a8Nb.jpg  [39m[1m[2m 44.69 kB[22m[1m[22m
+[2mdist/[22m[32massets/portfolio-3-BuG2sCpd.jpg  [39m[1m[2m 62.95 kB[22m[1m[22m
+[2mdist/[22m[32massets/portfolio-4-CFeFkn6a.jpg  [39m[1m[2m 66.47 kB[22m[1m[22m
+[2mdist/[22m[32massets/portfolio-2-21-p9Em5.jpg  [39m[1m[2m 76.02 kB[22m[1m[22m
+[2mdist/[22m[32massets/hero-bg-DNuql4uY.jpg      [39m[1m[2m217.34 kB[22m[1m[22m
+[2mdist/[22m[35massets/index-9xJWdM4E.css        [39m[1m[2m 64.53 kB[22m[1m[22m[2m ??? gzip:  11.25 kB[22m
+[2mdist/[22m[36massets/index-DAniGLB3.js         [39m[1m[2m466.58 kB[22m[1m[22m[2m ??? gzip: 148.38 kB[22m
+[32m??? built in 7.76s[39m
